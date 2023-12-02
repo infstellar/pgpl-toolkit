@@ -1,0 +1,9 @@
+libdir=E:/Newfolder/Library/lib
+includedir=E:/Newfolder/Library/include
+
+Name: libsolvext
+Description: Library for reading repositories
+Version: 0.7.24
+Requires: libsolv
+Libs: -L${libdir} -lsolvext
+Cflags: -I${includedir}

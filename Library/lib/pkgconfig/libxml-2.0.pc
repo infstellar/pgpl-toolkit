@@ -1,0 +1,11 @@
+prefix=E:/Newfolder/Library 
+exec_prefix=E:/Newfolder/Library 
+libdir=E:/Newfolder/Library/lib 
+includedir=E:/Newfolder/Library/include 
+modules=0 
+Name: libXML 
+Version: 2.10.4 
+Description: libXML library version2. 
+Requires: 
+Libs: -LE:/Newfolder/Library/lib -lxml2 -liconv -lz 
+Cflags: -IE:/Newfolder/Library/include/libxml 
